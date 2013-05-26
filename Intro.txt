@@ -1,0 +1,30 @@
+This is a basic introduction file for all newcomers. 
+With the help of this file you will get acquainted with GIT and will make 
+your own account at github (www.github.com), create a public remote repository 
+of your own, link it with a repository on your terminal/PC and clone it.
+
+But first some BASIC TIPS:
+i) To copy something from your terminal, just select it as you would select
+any text in your PC. Now it counts as automatically copied.
+
+ii) To paste something to your terminal just move the cursor to the position
+you wish to paste to, and simply right-click. Easy as that!
+
+iii)Changing your password. Some of you will probably want to change your 
+passwords. It is highly recommended that you do so, seeing that the passwords
+you get from the superuser aren't really safe! To do so just type the command
+passwd. You will be prompted to enter the old password, as well as type the
+new password and then retype it. If everything went well you will be informed
+that your password has been changed. It is now up to you to remember your new
+password and keep it safe!
+
+Now lets move on to the reason this text was written: GIT!
+Open your web browsers and go to https://speakerdeck.com/tsironis/git-101 ,
+where you will find a presentation by Dimitris Tsironis.This is the same
+presentation we used in our first Free Friday session. Follow the steps
+mentioned there and you will have your own GIT repository linked to your very
+own repository in github!
+Now try cloning this repository (https://github.com/dlabros/FreeFridays).
+If it worked, you should see this file in your clone folder as well.
+
+And thats it! Well done! Now you can move on to the actual second lesson!
