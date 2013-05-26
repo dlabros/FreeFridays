@@ -37,7 +37,8 @@ configure your git username and password. This is done with the following
 git config user.name "yourname"
 git config user.email whatever@mail.something
 Note that both the username and the email should be the ones you used
-while signing up on github. 
+while signing up on github. The password asked of you by the push command
+is the password with which you signed up to github.
 
 Now try cloning this repository (https://github.com/dlabros/FreeFridays).
 If it worked, you should see this file in your clone folder as well.
