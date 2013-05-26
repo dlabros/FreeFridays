@@ -24,6 +24,15 @@ where you will find a presentation by Dimitris Tsironis.This is the same
 presentation we used in our first Free Friday session. Follow the steps
 mentioned there and you will have your own GIT repository linked to your very
 own repository in github!
+
+IMPORTANT: After initializing a folder as a git repository  you should
+configure your git username and password. This is done with the following
+2 commands:
+git config user.name "yourname"
+git config user.email whatever@mail.something
+Note that both the username and the email should be the ones you used
+while signing up on github. 
+
 Now try cloning this repository (https://github.com/dlabros/FreeFridays).
 If it worked, you should see this file in your clone folder as well.
 
