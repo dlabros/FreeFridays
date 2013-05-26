@@ -28,6 +28,9 @@ own repository in github!
 You can use the repository in /home/FFRepo to test git. If you want to make
 your own new repositories then make a new directory inside /home/FFRepo.
 
+(Optional)Try uploading a txt file containing your name, surname and any other
+information about you that you want.
+
 IMPORTANT: After initializing a folder as a git repository  you should
 configure your git username and password. This is done with the following
 2 commands:
