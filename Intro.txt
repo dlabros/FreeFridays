@@ -10,7 +10,9 @@ any text in your PC. Now it counts as automatically copied.
 ii) To paste something to your terminal just move the cursor to the position
 you wish to paste to, and simply right-click. Easy as that!
 
-iii)Changing your password. Some of you will probably want to change your 
+iii)Copying and pasting from and to your PC works as usual.
+
+iv)Changing your password. Some of you will probably want to change your 
 passwords. It is highly recommended that you do so, seeing that the passwords
 you get from the superuser aren't really safe! To do so just type the command
 passwd. You will be prompted to enter the old password, as well as type the
@@ -42,5 +44,9 @@ is the password with which you signed up to github.
 
 Now try cloning this repository (https://github.com/dlabros/FreeFridays).
 If it worked, you should see this file in your clone folder as well.
+
+If you want to pull an older commit, get its SHA (the hexadecimal number in 
+gihub next to the commit in the commit history)and use the command:
+git checkout <SHA> . (Yes, the . is included in the command)!
 
 And thats it! Well done! Now you can move on to the actual second lesson!
