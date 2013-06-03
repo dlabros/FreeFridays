@@ -1,0 +1,41 @@
+In this lesson you will learn everything that you will need to know about 
+branching, merging and pull requests in git.
+
+But first some more basic tips!
+i)If you want to delete a file from both your local and the remote repo
+(the one on github!) you need only 2 commands:
+git rm file1.txt
+git commit -m "remove file1.txt"
+ii)If you want to remove a full repository from github, you simply go to
+the specific repository, click on the "Settings" button, scroll down to the
+"Danger Zone" and click on "Delete this repository" and follow the 
+instructions. If you want to remove the repository from your local pc as 
+well, simply use the command:
+rm -rf Folder_Name
+
+The presentation of the 2nd lesson can be found here 
+https://speakerdeck.com/tsironis/git-201, once again by our Dimitris Tsironis.
+
+Note: If you want to delete a branch via the command line you use the
+command:
+git push remote_name :branch_name 
+The branch on the local repo will still have to be deleted as mentioned in
+the presentation.
+
+Now try creating a branch locally and then pushing it to your remote.
+Once you have done this pull the txt file containing your personal data from
+your remote master branch to your local branch. Make some changes and push it 
+to your new remote branch. Everything done and checked? Merge!
+
+If this worked as well you are done with the 2nd lesson as well!
+You should now be able to cooperate with your friends in projects! 
+Try out the pull request function for branches as well, it is an easy to
+use and very useful tool!
+
+Note: If you wish to cooperate with friends in a project via github
+the repository owner must add you as a collaborator. In order to do this,
+he or she can simply go to the repository settings (as mentioned before
+for deleting remote repos) and click on "Collaborators" in the list to
+the left. After an authentication he/she can add the collaborators by 
+entering their github accounts (http://github.com/user_name) in the
+specified field and voila! You can now begin collaborating!
